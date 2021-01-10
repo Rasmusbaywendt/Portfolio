@@ -1,0 +1,19 @@
+img {
+    width: 100%;
+}
+@media only screen and (min-width:600px) {
+    section {
+        max-width: 1200px;
+        margin: auto;
+    }
+    body {
+        height: 100%;
+        background-image: url(billeder/baggrund_alle.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
