@@ -1,0 +1,26 @@
+.first_h1_kolonne {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+    text-align: center;
+}
+.first_h1_kolonne h1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 80px;
+    color: #2E398B;
+    font-family: "Bauhaus 93";
+}
+.first_p_kolonne {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(46, 57, 139, 0.2);
+}
+.first_p_kolonne p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 20px;
+    font-family: 'Spartan', sans-serif;
+}
