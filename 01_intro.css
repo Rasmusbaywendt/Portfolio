@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 8fr 1fr;
     margin: auto;
     text-align: center;
+    background-color: rgba(193, 196, 220, 0.9);
 }
 .first_h1_kolonne h1 {
     grid-column-start: 2;
@@ -10,17 +11,92 @@
     font-size: 80px;
     color: #2E398B;
     font-family: "Bauhaus 93";
+    box-shadow: 5px 10px 18px #888888;
+}
+.first_h2_kolonne {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+    text-align: left;
+    background-color: rgba(193, 196, 220, 0.9);
+}
+.first_h2_kolonne h2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 20px;
+    font-family: 'Spartan', sans-serif;
+}
+.second_h2_kolonne {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+    text-align: left;
+    background-color: rgba(193, 196, 220, 0.9);
+}
+.second_h2_kolonne h2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 20px;
+    font-family: 'Spartan', sans-serif;
+}
+.third_h2_kolonne {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+    text-align: left;
+    background-color: rgba(193, 196, 220, 0.9);
+}
+.third_h2_kolonne h2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 20px;
+    font-family: 'Spartan', sans-serif;
 }
 .first_p_kolonne {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
     margin: auto;
-    text-align: center;
-    background-color: rgba(46, 57, 139, 0.2);
+    text-align: left;
+    background-color: rgba(193, 196, 220, 0.9);
 }
 .first_p_kolonne p {
     grid-column-start: 2;
     grid-column-end: 3;
     font-size: 20px;
     font-family: 'Spartan', sans-serif;
+}
+.second_p_kolonne {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+    text-align: left;
+    background-color: rgba(193, 196, 220, 0.9);
+}
+.second_p_kolonne p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 20px;
+    font-family: 'Spartan', sans-serif;
+}
+.third_p_kolonne {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+    text-align: left;
+    background-color: rgba(193, 196, 220, 0.9);
+}
+.third_p_kolonne p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 20px;
+    font-family: 'Spartan', sans-serif;
+}
+.video {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: rgba(193, 196, 220, 0.9);
+}
+.shadow {
+    box-shadow: 7px 15px 18px #888888;
 }

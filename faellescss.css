@@ -8,7 +8,7 @@ img {
     }
     body {
         height: 100%;
-        background-image: url(billeder/baggrund_alle.png);
+        background-image: url(billeder/baggrund_alle_03.png);
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0;
@@ -22,6 +22,7 @@ img {
     text-align: center;
     padding: 0;
     margin: 0;
+    padding-bottom: 50px;
 }
 .nav li {
     display: inline-block;
