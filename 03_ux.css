@@ -101,3 +101,15 @@
     margin: auto;
     background-color: rgba(193, 196, 220, 0.9);
 }
+.billede2 {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+    background-color: rgba(193, 196, 220, 0.9);
+}
+.billede3 {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+    background-color: rgba(193, 196, 220, 0.9);
+}

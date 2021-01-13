@@ -95,7 +95,25 @@
 .shadow {
     box-shadow: 7px 15px 18px #888888;
 }
+.video {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: rgba(193, 196, 220, 0.9);
+}
 .billede1 {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+    background-color: rgba(193, 196, 220, 0.9);
+}
+.billede2 {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+    background-color: rgba(193, 196, 220, 0.9);
+}
+.billede3 {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
     margin: auto;

@@ -90,6 +90,7 @@
     grid-column-end: 3;
     font-size: 20px;
     font-family: 'Spartan', sans-serif;
+    padding-bottom: 120px;
 }
 .video {
     display: flex;

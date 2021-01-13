@@ -8,3 +8,35 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+@media (max-width: 940px) {
+    body {
+        height: 100%;
+        background-image: url(billeder/cv_baggrund_phone.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    text-decoration: none;
+    padding: 25px;
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    color: #AE3034;
+}
+p {
+    line-height: 1.6;
+}
